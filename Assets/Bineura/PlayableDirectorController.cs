@@ -9,7 +9,7 @@ public class PlayableDirectorController : MonoBehaviour
     public InputActionProperty fastForward;
     public InputActionProperty rewindAction;
     public InputActionProperty playAction;
-    public InputActionProperty pauseAction;
+    public InputActionProperty resetAction;
 
     [Header("Playback Settings")]
     public double rewindSpeed = 2.0;
@@ -19,16 +19,16 @@ public class PlayableDirectorController : MonoBehaviour
     {
         fastForward.action.Enable();
         playAction.action.Enable();
-        pauseAction.action.Enable();
         rewindAction.action.Enable();
+        resetAction.action.Enable();
     }
 
     private void OnDisable()
     {
         fastForward.action.Disable();
         playAction.action.Disable();
-        pauseAction.action.Disable();
         rewindAction.action.Disable();
+        resetAction.action.Disable();
     }
 
     private void Update()
@@ -60,6 +60,10 @@ public class PlayableDirectorController : MonoBehaviour
                 playableDirector.time = 0;
             playableDirector.Evaluate();
         }
+        if (resetAction.action.triggered)
+        {
+            Reset();
+        }
     }
 
     public void Play()
@@ -72,5 +76,13 @@ public class PlayableDirectorController : MonoBehaviour
     {
         if (playableDirector == null) return;
         playableDirector.Pause();
+    }
+
+    public void Reset()
+    {
+        if (playableDirector == null) return;
+
+        playableDirector.time = 0;
+        playableDirector.Evaluate();
     }
 }

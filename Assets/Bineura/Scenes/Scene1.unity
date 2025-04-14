@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451846384361831002, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 34.8
+      value: 41.87
       objectReference: {fileID: 0}
     - target: {fileID: 451846384361831002, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -310,11 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451846384833417138, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 61.4
+      value: 53.21
       objectReference: {fileID: 0}
     - target: {fileID: 451846384833417138, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 40.605
       objectReference: {fileID: 0}
     - target: {fileID: 451846384833417138, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -394,11 +394,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451846385462768850, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 35.73
+      value: 80.56
       objectReference: {fileID: 0}
     - target: {fileID: 451846385462768850, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 54.28
       objectReference: {fileID: 0}
     - target: {fileID: 451846385462768850, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -422,11 +422,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451846385981750427, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 61.4
+      value: 94.52
       objectReference: {fileID: 0}
     - target: {fileID: 451846385981750427, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 61.26
       objectReference: {fileID: 0}
     - target: {fileID: 451846385981750427, guid: 83b18f949ae16ce4d9e27448a1f6f957, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -497,18 +497,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2477341808896798031, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3582426976815290601, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: rewindSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3582426976815290601, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: fastForwardSpeed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5607510380317502612, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
       propertyPath: m_Name
       value: Scene1_PlayableDirector

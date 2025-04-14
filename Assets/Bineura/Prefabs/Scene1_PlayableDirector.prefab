@@ -102,20 +102,20 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -1094526176512938255, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
-  pauseAction:
-    m_UseReference: 0
+  resetAction:
+    m_UseReference: 1
     m_Action:
-      m_Name: Pause
+      m_Name: Reset
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 1c04cb8d-42d1-4a1a-8db9-b073524fdd02
+      m_Id: dd3edb97-feec-4155-aca8-b9c18a6503ec
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
-  rewindSpeed: 2
-  fastForwardSpeed: 2
+    m_Reference: {fileID: -1935974867849374922, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  rewindSpeed: 5
+  fastForwardSpeed: 5
 --- !u!1001 &2477341807507572694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,6 +123,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5607510380317502615}
     m_Modifications:
+    - target: {fileID: 2100488857, guid: 6d9c507f5b4f4944c958556565e56e7a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7165719680109828926, guid: 6d9c507f5b4f4944c958556565e56e7a, type: 3}
       propertyPath: m_Name
       value: teste_cena1

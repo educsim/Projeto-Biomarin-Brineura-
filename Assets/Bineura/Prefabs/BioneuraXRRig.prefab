@@ -455,7 +455,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 40, y: -23}
-  m_SizeDelta: {x: 34.8, y: 18}
+  m_SizeDelta: {x: 41.87, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &451846384361831001
 CanvasRenderer:
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Blink
+  m_text: Reset
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1114,8 +1114,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 44.7, y: -23}
-  m_SizeDelta: {x: 61.4, y: 18}
+  m_AnchoredPosition: {x: 40.605, y: -23}
+  m_SizeDelta: {x: 53.21, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &451846384833417137
 CanvasRenderer:
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UI Press
+  m_text: Rewind
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2104,8 +2104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 40, y: -23}
-  m_SizeDelta: {x: 35.73, y: 18}
+  m_AnchoredPosition: {x: 54.28, y: -23}
+  m_SizeDelta: {x: 80.56, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &451846385462768849
 CanvasRenderer:
@@ -2135,7 +2135,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Grab
+  m_text: Play/Pause
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2434,8 +2434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 44.7, y: -23}
-  m_SizeDelta: {x: 61.4, y: 18}
+  m_AnchoredPosition: {x: 61.26, y: -23}
+  m_SizeDelta: {x: 94.52, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &451846385981750424
 CanvasRenderer:
@@ -2465,7 +2465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UI Press
+  m_text: Fast Forward
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7354,7 +7354,7 @@ GameObject:
   - component: {fileID: 3100728127111183058}
   - component: {fileID: 6698318137533394178}
   m_Layer: 0
-  m_Name: Affordance Callout Click
+  m_Name: Affordance Callout Rewind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7395,7 +7395,7 @@ MonoBehaviour:
   m_Curve: {fileID: 4651484923186931456}
   m_DwellTime: 1
   m_Unparent: 1
-  m_TurnOffAtStart: 1
+  m_TurnOffAtStart: 0
 --- !u!1 &3100728127148554189
 GameObject:
   m_ObjectHideFlags: 0
@@ -8059,7 +8059,7 @@ GameObject:
   - component: {fileID: 3100728127561797434}
   - component: {fileID: 6698318137091152106}
   m_Layer: 0
-  m_Name: Affordance Callout Blink
+  m_Name: Affordance Callout Reset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8100,7 +8100,7 @@ MonoBehaviour:
   m_Curve: {fileID: 4651484922727387880}
   m_DwellTime: 1
   m_Unparent: 1
-  m_TurnOffAtStart: 1
+  m_TurnOffAtStart: 0
 --- !u!1 &3100728127983416747
 GameObject:
   m_ObjectHideFlags: 0
@@ -8341,7 +8341,7 @@ GameObject:
   - component: {fileID: 3100728128124750331}
   - component: {fileID: 6698318136527937067}
   m_Layer: 0
-  m_Name: Affordance Callout Click
+  m_Name: Affordance Callout Fast Forward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8382,7 +8382,7 @@ MonoBehaviour:
   m_Curve: {fileID: 4651484924330791977}
   m_DwellTime: 1
   m_Unparent: 1
-  m_TurnOffAtStart: 1
+  m_TurnOffAtStart: 0
 --- !u!1 &3100728128535952866
 GameObject:
   m_ObjectHideFlags: 0
@@ -8535,7 +8535,7 @@ GameObject:
   - component: {fileID: 3100728128662733234}
   - component: {fileID: 6698318136048670306}
   m_Layer: 0
-  m_Name: Affordance Callout Grab
+  m_Name: Affordance Callout Play/Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8576,7 +8576,7 @@ MonoBehaviour:
   m_Curve: {fileID: 4651484923832786016}
   m_DwellTime: 1
   m_Unparent: 1
-  m_TurnOffAtStart: 1
+  m_TurnOffAtStart: 0
 --- !u!1 &3100728128681104197
 GameObject:
   m_ObjectHideFlags: 0
@@ -9008,7 +9008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4089255890319263121}
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0.0099, y: -0.0214, z: 0.0073}
+  m_LocalPosition: {x: -0.0118, y: -0.0091, z: 0.0048}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9163,7 +9163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4089255891361352473}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.0204, y: 0.0278, z: -0.0279}
+  m_LocalPosition: {x: -0.0065, y: 0.0046, z: 0.0048}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
