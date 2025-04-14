@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5607510380317502615}
   - component: {fileID: 8278983774564510255}
+  - component: {fileID: 3582426976815290601}
   m_Layer: 0
   m_Name: Scene1_PlayableDirector
   m_TagString: Untagged
@@ -52,6 +53,69 @@ PlayableDirector:
     value: {fileID: 2477341808896798031}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &3582426976815290601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607510380317502612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca2dd0b67d42b049b27bd615b1bbe6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 8278983774564510255}
+  fastForward:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Fast Forward
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 81130f7d-c752-4d49-9f79-a26a1950a456
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4886008088252394825, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  rewindAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rewind
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 37a8ceb1-3e7d-4d1e-8a5a-b227e7cdf651
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2594826622932737291, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  playAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Play
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e39a991a-7c6b-46ba-8753-84d3be5d6f84
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1094526176512938255, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  pauseAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Pause
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1c04cb8d-42d1-4a1a-8db9-b073524fdd02
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  rewindSpeed: 2
+  fastForwardSpeed: 2
 --- !u!1001 &2477341807507572694
 PrefabInstance:
   m_ObjectHideFlags: 0

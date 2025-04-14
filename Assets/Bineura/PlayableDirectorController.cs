@@ -1,0 +1,76 @@
+using UnityEngine.InputSystem;
+using UnityEngine.Playables;
+using UnityEngine;
+
+public class PlayableDirectorController : MonoBehaviour
+{
+    public PlayableDirector playableDirector;
+
+    public InputActionProperty fastForward;
+    public InputActionProperty rewindAction;
+    public InputActionProperty playAction;
+    public InputActionProperty pauseAction;
+
+    [Header("Playback Settings")]
+    public double rewindSpeed = 2.0;
+    public double fastForwardSpeed = 2.0; 
+
+    private void OnEnable()
+    {
+        fastForward.action.Enable();
+        playAction.action.Enable();
+        pauseAction.action.Enable();
+        rewindAction.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        fastForward.action.Disable();
+        playAction.action.Disable();
+        pauseAction.action.Disable();
+        rewindAction.action.Disable();
+    }
+
+    private void Update()
+    {
+        if (playableDirector == null) return;
+
+        if (playAction.action.triggered)
+        {
+            if (playableDirector.state == PlayState.Playing)
+            {
+                Pause();
+                return;
+            }
+            Play();
+        }
+
+        if (fastForward.action.IsPressed())
+        {
+            playableDirector.time += fastForwardSpeed * Time.deltaTime;
+            if (playableDirector.time > playableDirector.duration)
+                playableDirector.time = playableDirector.duration;
+            playableDirector.Evaluate();
+        }
+
+        if (rewindAction.action.IsPressed())
+        {
+            playableDirector.time -= rewindSpeed * Time.deltaTime;
+            if (playableDirector.time < 0)
+                playableDirector.time = 0;
+            playableDirector.Evaluate();
+        }
+    }
+
+    public void Play()
+    {
+        if (playableDirector == null) return;
+        playableDirector.Play();
+    }
+
+    public void Pause()
+    {
+        if (playableDirector == null) return;
+        playableDirector.Pause();
+    }
+}
