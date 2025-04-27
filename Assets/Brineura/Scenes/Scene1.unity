@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!320 &324097 stripped
+PlayableDirector:
+  m_CorrespondingSourceObject: {fileID: 8278983774564510255, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+  m_PrefabInstance: {fileID: 5607510380687703425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1894571645
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,12 +510,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 53401608041277852, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+    - target: {fileID: 3582426976815290601, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+      propertyPath: videoController
       value: 
-      objectReference: {fileID: 2100000, guid: 36246879910178e40aeb2d2f6a5cf39d, type: 2}
-    - target: {fileID: 53401608041277852, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[0]
+      objectReference: {fileID: 5607510380687703437}
+    - target: {fileID: 3582426976815290601, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+      propertyPath: timelineVideoController
+      value: 
+      objectReference: {fileID: 5607510380687703437}
+    - target: {fileID: 3881676589487903005, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+      propertyPath: m_SkipOnDrop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881676589487903005, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+      propertyPath: m_WaitForFirstFrame
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5607510380317502612, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
@@ -523,7 +536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5607510380317502615, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9399352
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5607510380317502615, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
       propertyPath: m_LocalPosition.y
@@ -561,17 +574,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8278983774564510255, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: m_SceneBindings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8278983774564510255, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: m_SceneBindings.Array.data[1].key
+    - target: {fileID: 7262452303862009699, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+      propertyPath: playableDirector
       value: 
-      objectReference: {fileID: -155326212721640666, guid: 44cfaca5bc030284a92eed8ae6cc980e, type: 2}
-    - target: {fileID: 8278983774564510255, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
-      propertyPath: m_SceneBindings.Array.data[1].value
-      value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 324097}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+--- !u!114 &5607510380687703437 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7262452303862009699, guid: b9d706b1ac9431846b9672a94845fe67, type: 3}
+  m_PrefabInstance: {fileID: 5607510380687703425}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870829c37f39cc74ab5c3595caef8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

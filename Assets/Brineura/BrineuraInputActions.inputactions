@@ -1,5 +1,5 @@
 {
-    "name": "BineuraInputActions",
+    "name": "BrineuraInputActions",
     "maps": [
         {
             "name": "TimelineController",
@@ -56,11 +56,33 @@
                 },
                 {
                     "name": "",
+                    "id": "c103df83-d41b-41a3-8fce-50bb8cfce689",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Play/Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "592249cf-5476-4176-9c65-3b9d8b6b2885",
                     "path": "<XRController>{RightHand}/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
+                    "action": "FastForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38f06a4c-2b19-406b-8a25-17010b2d9a42",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "FastForward",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -78,8 +100,30 @@
                 },
                 {
                     "name": "",
+                    "id": "29de960d-e307-459f-9da5-15bd179ab9e4",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rewind",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a0072f26-61e9-4dcc-b423-4639d574e495",
                     "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c68aeca0-d64d-4cbf-8633-01adc226a8e5",
+                    "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
