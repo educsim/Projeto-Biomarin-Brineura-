@@ -22,12 +22,6 @@ public class TimelineVideoController : MonoBehaviour
     private void Start()
     {
         videoPlayer.seekCompleted += SeekCompleted;
-        videoPlayer.frameReady += FrameReady;
-    }
-
-    private void FrameReady(VideoPlayer source, long frameIdx)
-    {
-       
     }
 
     private void SeekCompleted(VideoPlayer source)
@@ -53,6 +47,18 @@ public class TimelineVideoController : MonoBehaviour
         if (!isPlaying) return;
         if (waitingToSeekFrame) return;
         StartCoroutine(SetTimeCoroutine(time));
+    }
+
+    public void PauseVideo()
+    {
+        if (!isPlaying) return;
+        videoPlayer.Pause();
+    }
+
+    public void PlayVideo()
+    {
+        if (!isPlaying) return;
+        videoPlayer.Play();
     }
 
     public IEnumerator SetTimeCoroutine(double time)

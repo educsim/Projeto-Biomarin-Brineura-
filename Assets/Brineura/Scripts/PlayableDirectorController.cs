@@ -74,12 +74,14 @@ public class PlayableDirectorController : MonoBehaviour
     {
         if (playableDirector == null) return;
         playableDirector.Play();
+        videoController.PlayVideo();
     }
 
     public void Pause()
     {
         if (playableDirector == null) return;
         playableDirector.Pause();
+        videoController.PauseVideo();
     }
 
     public void Reset()
