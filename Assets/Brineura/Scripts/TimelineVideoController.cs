@@ -8,7 +8,7 @@ using UnityEngine.Video;
 public class TimelineVideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public PlayableDirector playableDirector;
+    private PlayableDirector playableDirector;
 
     public List<VideoClip> clipList = new List<VideoClip>();
 
@@ -21,6 +21,8 @@ public class TimelineVideoController : MonoBehaviour
 
     private void Start()
     {
+        playableDirector = GetComponentInParent<PlayableDirector>();
+
         videoPlayer.seekCompleted += SeekCompleted;
     }
 

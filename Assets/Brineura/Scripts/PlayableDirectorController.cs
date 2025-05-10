@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlayableDirectorController : MonoBehaviour
 {
-    public PlayableDirector playableDirector;
-
-    public TimelineVideoController videoController;
+    private PlayableDirector playableDirector;
+    private TimelineVideoController videoController;
 
     public InputActionProperty fastForward;
     public InputActionProperty rewindAction;
@@ -31,6 +30,12 @@ public class PlayableDirectorController : MonoBehaviour
         playAction.action.Disable();
         rewindAction.action.Disable();
         resetAction.action.Disable();
+    }
+
+    private void Start()
+    {
+        playableDirector = GetComponent<PlayableDirector>();
+        videoController = GetComponentInChildren<TimelineVideoController>();
     }
 
     private void Update()

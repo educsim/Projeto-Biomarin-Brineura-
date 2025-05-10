@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4989907751629837996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4989907751629837999}
+  - component: {fileID: 8793997025434488855}
+  - component: {fileID: 4132334169229664977}
+  m_Layer: 0
+  m_Name: PlayableDirectorController_BASE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4989907751629837999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989907751629837996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9399352, y: 1.558053, z: -5.762055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &8793997025434488855
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989907751629837996}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 0}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5251777071490055449, guid: 44cfaca5bc030284a92eed8ae6cc980e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -155326212721640666, guid: 44cfaca5bc030284a92eed8ae6cc980e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2690761740406979174, guid: 44cfaca5bc030284a92eed8ae6cc980e, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!114 &4132334169229664977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989907751629837996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca2dd0b67d42b049b27bd615b1bbe6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 0}
+  videoController: {fileID: 0}
+  fastForward:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Fast Forward
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 81130f7d-c752-4d49-9f79-a26a1950a456
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4886008088252394825, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  rewindAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rewind
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 37a8ceb1-3e7d-4d1e-8a5a-b227e7cdf651
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2594826622932737291, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  playAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Play
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e39a991a-7c6b-46ba-8753-84d3be5d6f84
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1094526176512938255, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  resetAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Reset
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: dd3edb97-feec-4155-aca8-b9c18a6503ec
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1935974867849374922, guid: 32e0f3cfa23c85b48b75f1622858536a, type: 3}
+  rewindSpeed: 5
+  fastForwardSpeed: 5
