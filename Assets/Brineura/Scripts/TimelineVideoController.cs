@@ -5,19 +5,27 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Video;
 
+[Serializable] public struct VideoStruct
+{
+    public VideoClip video;
+    public float startTime;
+    public float endTime;
+}
+
+
 public class TimelineVideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     private PlayableDirector playableDirector;
 
-    public List<VideoClip> clipList = new List<VideoClip>();
+    public List<VideoStruct> videoList = new List<VideoStruct>();
 
-    private double startTime;
     private bool isPlaying = false;
     private bool waitingToSeekFrame = false;
     private bool seekReady = false;
 
     private int frameRate;
+    private int currentIndex;
 
     private void Start()
     {
@@ -31,16 +39,53 @@ public class TimelineVideoController : MonoBehaviour
         seekReady = true;
     }
 
-    public void PlayVideoClip(int index)
+    private void Update()
     {
-        if (index < 0 || index >= clipList.Count) return;
+        if (!isPlaying)
+        {
+            PlayCheck();
+        }
+        if (isPlaying)
+        {
+            StopCheck();
+        }
+    }
 
-        videoPlayer.clip = clipList[index];
+    private void StopCheck()
+    {
+        double currentTime = playableDirector.time;
+        if (currentTime < videoList[currentIndex].startTime || currentTime > videoList[currentIndex].endTime)
+        {
+            StopClip();
+        }
+    }
+
+    private void StopClip()
+    {
+        Debug.Log("Stop Clip");
+        isPlaying = false;
+    }
+
+    private void PlayCheck()
+    {
+        double currentTime = playableDirector.time;
+        for (int i = 0; i < videoList.Count; i++)
+        {
+            if (currentTime >= videoList[i].startTime && currentTime <= videoList[i].endTime)
+            {
+                PlayClip(i, currentTime);
+            }
+        }
+    }
+
+    private void PlayClip(int index, double time)
+    {
+        Debug.Log("Play Clip");
+        videoPlayer.clip = videoList[index].video;
         videoPlayer.Play();
         isPlaying = true;
-        startTime = playableDirector.time;
-
-        // Obter a taxa de quadros do vídeo
+        currentIndex = index;
+        ChangeTime(time);
         frameRate = Mathf.RoundToInt((float)videoPlayer.frameRate);
     }
 
@@ -67,7 +112,7 @@ public class TimelineVideoController : MonoBehaviour
     {
         waitingToSeekFrame = true;
         seekReady = false;
-        videoPlayer.time = time - startTime;
+        videoPlayer.time = time - videoList[currentIndex].startTime;
         while (waitingToSeekFrame)
         {
             if (seekReady)

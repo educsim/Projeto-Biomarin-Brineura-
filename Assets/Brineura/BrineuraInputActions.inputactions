@@ -18,7 +18,7 @@
                     "name": "FastForward",
                     "type": "Button",
                     "id": "dfe8fb8c-4b33-406d-b7ae-67c2361de594",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false

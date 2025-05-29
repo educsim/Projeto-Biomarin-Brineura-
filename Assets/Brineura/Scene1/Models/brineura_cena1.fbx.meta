@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 6886a80c9b1a32d478ed2fd5382df73d
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -94,6 +94,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: brilho
     second: {fileID: 2100000, guid: a325ceb163359f94d9aed25bb10ae5e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabelo_loiro
+    second: {fileID: 2100000, guid: 8c43e9122893a2f49bec4564621215a7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -263,7 +268,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: metal_dourado
-    second: {fileID: -3589381986150834529, guid: 16241839eb5cdb94889055209299767a, type: 3}
+    second: {fileID: 2100000, guid: 5b446b36cfadd4040adc6221a2e2602c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -393,7 +398,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_transp
-    second: {fileID: 7928579464856640737, guid: 16241839eb5cdb94889055209299767a, type: 3}
+    second: {fileID: 2100000, guid: e352e93540ac00146ab73f91e1a18368, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -526,8 +531,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -550,6 +553,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -610,6 +614,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

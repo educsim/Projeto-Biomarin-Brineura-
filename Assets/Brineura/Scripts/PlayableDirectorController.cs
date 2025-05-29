@@ -55,18 +55,20 @@ public class PlayableDirectorController : MonoBehaviour
         if (fastForward.action.IsPressed())
         {
             playableDirector.time += fastForwardSpeed * Time.deltaTime;
+            playableDirector.Evaluate();
             videoController.ChangeTime(playableDirector.time);
             if (playableDirector.time > playableDirector.duration)
                 playableDirector.time = playableDirector.duration;
-            playableDirector.Evaluate();
+            
         }
         if (rewindAction.action.IsPressed())
         {
             playableDirector.time -= rewindSpeed * Time.deltaTime;
+            playableDirector.Evaluate();
             videoController.ChangeTime(playableDirector.time);
             if (playableDirector.time < 0)
                 playableDirector.time = 0;
-            playableDirector.Evaluate();
+           
         }
 
         if (resetAction.action.triggered)
