@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: a54cde17ce610a449bd1ea9af6c7949e
+guid: 9f1b47ed5d3f803468c1e04ae6187975
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - CoronaPhysicalMtl
+    second: {fileID: 2100000, guid: 81cd2fe1b24fa4441833d9077bc45a27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #0
+    second: {fileID: 2100000, guid: 6d129b55e98c5704c9a753b7886b0f6f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12,8 +22,48 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material #361
+    second: {fileID: 2100000, guid: d923987156c1d3d4781892bde155346a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #362
+    second: {fileID: 2100000, guid: ac4bab03d7d4bc84c8774be2b1bbc0cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #363
+    second: {fileID: 2100000, guid: c51dea4eb22b8cb4f92a1bb4b5e9db7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acrilico
+    second: {fileID: 2100000, guid: 3a23abdae63c1cf45b6299ef14a23a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acrilico_cinza
+    second: {fileID: 2100000, guid: 66fba493515863340b8dc9a5d7d3b77a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acrilico_transp_filtro
+    second: {fileID: 2100000, guid: 7ea6218a7b358034baf7773084643064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acrilico_verde
+    second: {fileID: 2100000, guid: 2220dce58c7e2b643a85ee0bc50630b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: aluminio
     second: {fileID: 2100000, guid: 49540cb3864d229429756e6541430fe9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminio_opaco
+    second: {fileID: 2100000, guid: 586e8d0ae97a3074089e6ff45ece6bc3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -37,13 +87,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: bracadeira_pressao
-    second: {fileID: 2100000, guid: fa32157b38885ce4cb954e7b4d407493, type: 2}
+      name: branco_tecido
+    second: {fileID: 2100000, guid: 97f259f56b4a8ce4f973e0787014f12f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: branco_tecido
-    second: {fileID: 2100000, guid: 97f259f56b4a8ce4f973e0787014f12f, type: 2}
+      name: brilho
+    second: {fileID: 2100000, guid: a325ceb163359f94d9aed25bb10ae5e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabelo_loiro
+    second: {fileID: 2100000, guid: 8c43e9122893a2f49bec4564621215a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabelo_preso_auxiliar
+    second: {fileID: 2100000, guid: 5ba92c53449fe1e4cb1ab9fa8d33c0bf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -59,6 +119,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: calca_capote
     second: {fileID: 2100000, guid: 6bc8bc569cc35a043a0daa805862338f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_cam03
+    second: {fileID: 2100000, guid: 94c6ebf3e441b934d9d1b720a83b84f2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -87,11 +152,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: capacete_bandagem
-    second: {fileID: 2100000, guid: f715048bbe63a5a42a41dcb34a01e93f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: capote_cirurgico
     second: {fileID: 2100000, guid: d0d5d671248580341ba2c49bb3ddb440, type: 2}
   - first:
@@ -104,6 +164,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: cilios_masculino
     second: {fileID: 2100000, guid: eb7761ad1263ec344abca502bb613262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: conector_acrilico
+    second: {fileID: 2100000, guid: e538a5a9142b65b49a83c7067ab74d24, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -127,8 +192,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: dourado
+    second: {fileID: 2100000, guid: e265a4c1d2caa9d46ade4412d961cf70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: emborrachado_azul
     second: {fileID: 2100000, guid: cd8dff67e30e7f9469da5fc48d67c145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estrias_filtro
+    second: {fileID: 2100000, guid: 15795ba37c6fd5c4d95220b8b789bb4e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -137,18 +212,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: filtro_liso
-    second: {fileID: 2100000, guid: d2638796b0035f8459a5fde05663858a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: gaze
     second: {fileID: 2100000, guid: 28b6035c657803741b75fa052e13a9df, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: knurled knob
-    second: {fileID: 2100000, guid: 3d730f1b12c71c741a717c67bfc8b4ce, type: 2}
+      name: gray metal
+    second: {fileID: 2100000, guid: eca79c4af8f1e7242b15098a04cfae37, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -182,6 +252,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mechas_auxiliar
+    second: {fileID: 2100000, guid: 90527f6301a54ff4eaa08941c2768e69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: meia_crianca
     second: {fileID: 2100000, guid: 32a59ff60eb7c4149a07ad882b022865, type: 2}
   - first:
@@ -197,8 +272,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: monitor_mask_rosto
+    second: {fileID: 2100000, guid: 5e789b7362c2668419eadbbb62ed5ff4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: monitor_multi
     second: {fileID: 2100000, guid: 54dd58d19efd5ce4cb8c8faec4dd6cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: olho_aux
+    second: {fileID: 2100000, guid: b200eb8460a749e40b05ba8945e1099a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -229,6 +314,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: paredes
     second: {fileID: 2100000, guid: e81f48e9fffea53419e6d2ab5c216a11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pele_aux
+    second: {fileID: 2100000, guid: c833644f0f021c74d84a398351570b2d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -377,6 +467,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: seringa3ml_medidas
+    second: {fileID: 2100000, guid: c1f256f4ce0585e44b332b0dc4e2ebb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seringa_medidas
+    second: {fileID: 2100000, guid: f9e185247042e434bbf94549b064df17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: seringa_plastico
     second: {fileID: 2100000, guid: cd6fa7e68a93b9142b5a203d196a381e, type: 2}
   - first:
@@ -384,6 +484,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: sistema_teto
     second: {fileID: 2100000, guid: 5432e25694a3a06419672dbcb5e038bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tarja
+    second: {fileID: 2100000, guid: 88f5d55bc49940244920bc8c95add5d8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -409,6 +514,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: travesseiro
     second: {fileID: 2100000, guid: aabc905c292dc4f4f8a553aa537f40d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro_fino
+    second: {fileID: 2100000, guid: 5f53259fc0a05b340ab81f1c59faf596, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

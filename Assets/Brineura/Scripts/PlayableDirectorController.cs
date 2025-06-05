@@ -1,6 +1,8 @@
 using UnityEngine.InputSystem;
 using UnityEngine.Playables;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Inputs;
+using UnityEngine.SceneManagement;
 
 public class PlayableDirectorController : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class PlayableDirectorController : MonoBehaviour
     public InputActionProperty rewindAction;
     public InputActionProperty playAction;
     public InputActionProperty resetAction;
+    public InputActionProperty returnToMenuAction;
 
     [Header("Playback Settings")]
     public double rewindSpeed = 2.0;
@@ -22,6 +25,7 @@ public class PlayableDirectorController : MonoBehaviour
         playAction.action.Enable();
         rewindAction.action.Enable();
         resetAction.action.Enable();
+        returnToMenuAction.action.Enable();
     }
 
     private void OnDisable()
@@ -30,6 +34,7 @@ public class PlayableDirectorController : MonoBehaviour
         playAction.action.Disable();
         rewindAction.action.Disable();
         resetAction.action.Disable();
+        returnToMenuAction.action.Disable();
     }
 
     private void Start()
@@ -56,7 +61,10 @@ public class PlayableDirectorController : MonoBehaviour
         {
             playableDirector.time += fastForwardSpeed * Time.deltaTime;
             playableDirector.Evaluate();
-            videoController.ChangeTime(playableDirector.time);
+            if (videoController != null)
+            {
+                videoController.ChangeTime(playableDirector.time);
+            }
             if (playableDirector.time > playableDirector.duration)
                 playableDirector.time = playableDirector.duration;
             
@@ -65,7 +73,10 @@ public class PlayableDirectorController : MonoBehaviour
         {
             playableDirector.time -= rewindSpeed * Time.deltaTime;
             playableDirector.Evaluate();
-            videoController.ChangeTime(playableDirector.time);
+            if (videoController != null)
+            {
+                videoController.ChangeTime(playableDirector.time);
+            }
             if (playableDirector.time < 0)
                 playableDirector.time = 0;
            
@@ -75,12 +86,18 @@ public class PlayableDirectorController : MonoBehaviour
         {
             Reset();
         }
+
+        if (returnToMenuAction.action.triggered)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     public void Play()
     {
         if (playableDirector == null) return;
         playableDirector.Play();
+        if (videoController == null) return;
         videoController.PlayVideo();
     }
 
@@ -88,6 +105,7 @@ public class PlayableDirectorController : MonoBehaviour
     {
         if (playableDirector == null) return;
         playableDirector.Pause();
+        if(videoController == null) return; 
         videoController.PauseVideo();
     }
 
