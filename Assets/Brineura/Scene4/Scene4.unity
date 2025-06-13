@@ -386,6 +386,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8536114389784510435, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7975985483114630297, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6940748503279282901, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -413,6 +421,10 @@ PrefabInstance:
     - target: {fileID: -6940748503279282901, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.0065593123
+      objectReference: {fileID: 0}
+    - target: {fileID: -6940748503279282901, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4318162524175500683, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
@@ -442,6 +454,14 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.008508086
       objectReference: {fileID: 0}
+    - target: {fileID: -4318162524175500683, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3204756366139337742, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -2689386052227453451, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -469,6 +489,10 @@ PrefabInstance:
     - target: {fileID: -2689386052227453451, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.00000000365909
+      objectReference: {fileID: 0}
+    - target: {fileID: -2689386052227453451, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -2570218740954044477, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
@@ -498,6 +522,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.0000020786792
       objectReference: {fileID: 0}
+    - target: {fileID: -2570218740954044477, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -1436290378432969544, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -526,6 +554,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.0065593123
       objectReference: {fileID: 0}
+    - target: {fileID: -1436290378432969544, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -1412498052749261995, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -553,6 +585,14 @@ PrefabInstance:
     - target: {fileID: -1412498052749261995, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.0037204374
+      objectReference: {fileID: 0}
+    - target: {fileID: -1412498052749261995, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 447407471700021652, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_Name
@@ -586,6 +626,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.0000000036817331
       objectReference: {fileID: 0}
+    - target: {fileID: 1129513604614368014, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1973068878720736247, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -613,6 +657,10 @@ PrefabInstance:
     - target: {fileID: 1973068878720736247, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.7031298
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973068878720736247, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 208
       objectReference: {fileID: 0}
     - target: {fileID: 4637644948954315234, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
@@ -642,6 +690,18 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.008838654
       objectReference: {fileID: 0}
+    - target: {fileID: 4637644948954315234, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4877000967178615662, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562117082087573081, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5578931353421826085, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -669,6 +729,10 @@ PrefabInstance:
     - target: {fileID: 5578931353421826085, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.4335772
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578931353421826085, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6210212673007774325, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
@@ -698,6 +762,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.006127743
       objectReference: {fileID: 0}
+    - target: {fileID: 6210212673007774325, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6466940628888688355, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -726,6 +794,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.4356715
       objectReference: {fileID: 0}
+    - target: {fileID: 6466940628888688355, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8787437902091110882, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -753,6 +825,10 @@ PrefabInstance:
     - target: {fileID: 8787437902091110882, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.6931698
+      objectReference: {fileID: 0}
+    - target: {fileID: 8787437902091110882, guid: a54cde17ce610a449bd1ea9af6c7949e, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 466
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
