@@ -52,6 +52,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: brineura_cena2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3813803719285524497, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b200eb8460a749e40b05ba8945e1099a, type: 2}
+    - target: {fileID: 4118121655546446130, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b200eb8460a749e40b05ba8945e1099a, type: 2}
+    - target: {fileID: 4669368317177120794, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 27202325137e8434f9df6489e343c6ab, type: 2}
+    - target: {fileID: 4936536918471822221, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 27202325137e8434f9df6489e343c6ab, type: 2}
+    - target: {fileID: 5538974895647828980, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 27202325137e8434f9df6489e343c6ab, type: 2}
+    - target: {fileID: 5619521182001756637, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c51dea4eb22b8cb4f92a1bb4b5e9db7b, type: 2}
+    - target: {fileID: 6009956124695491413, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 27202325137e8434f9df6489e343c6ab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60,6 +88,16 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 3186947204819440707}
   m_SourcePrefab: {fileID: 100100000, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+--- !u!1 &1903121873326203288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4675817888526698838, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+  m_PrefabInstance: {fileID: 6524283034004318414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3435961677039916366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8440893776418749824, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+  m_PrefabInstance: {fileID: 6524283034004318414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4278805036080036928 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7055933733255025806, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
@@ -167,6 +205,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 511841634686424595, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
   m_PrefabInstance: {fileID: 6524283034004318414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7865786234526258128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4008777879649729310, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
+  m_PrefabInstance: {fileID: 6524283034004318414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &9180181454191789510 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2732672044319927560, guid: bdd60a82a25b90a4abad72bc0617f962, type: 3}
@@ -234,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
     - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].key
@@ -251,15 +294,15 @@ PrefabInstance:
     - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
       propertyPath: m_SceneBindings.Array.data[3].key
       value: 
-      objectReference: {fileID: 5401512471533800211, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
+      objectReference: {fileID: 6950358226857829105, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
     - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].key
       value: 
-      objectReference: {fileID: -6894827143845257946, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
+      objectReference: {fileID: -8426643300812265098, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
     - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
       propertyPath: m_SceneBindings.Array.data[5].key
       value: 
-      objectReference: {fileID: -5447721712339593095, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
+      objectReference: {fileID: -2382982119428446538, guid: 54ba80e2d92abd745869bdedd9671fdb, type: 2}
     - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
       propertyPath: m_SceneBindings.Array.data[6].key
       value: 
@@ -280,6 +323,18 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[2].value
       value: 
       objectReference: {fileID: 3186947204819440707}
+    - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].value
+      value: 
+      objectReference: {fileID: 1903121873326203288}
+    - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 7865786234526258128}
+    - target: {fileID: 8793997025434488855, guid: 39b2cec84a2a70f43ac03e222137a5ab, type: 3}
+      propertyPath: m_SceneBindings.Array.data[5].value
+      value: 
+      objectReference: {fileID: 3435961677039916366}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

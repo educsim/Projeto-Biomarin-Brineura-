@@ -18,6 +18,8 @@ Shader "Custom/TransparentUnlit"
             Name "ForwardLit"
             Tags { "LightMode"="UniversalForward" }
 
+            Cull Off // <- Renderiza os dois lados
+
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -53,7 +55,7 @@ Shader "Custom/TransparentUnlit"
 
             half4 frag(Varyings IN) : SV_Target
             {
-               half4 texColor = tex2D(_MainTex, IN.uv);
+                half4 texColor = tex2D(_MainTex, IN.uv);
                 half4 finalColor = texColor * _Color;
 
                 half mask = tex2D(_MaskTex, IN.uv).r;
