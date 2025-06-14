@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1495606904649238911, guid: cce1e719878aa334bb4a4da66ecb9584, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2608571442045518713, guid: cce1e719878aa334bb4a4da66ecb9584, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -170,6 +174,10 @@ PrefabInstance:
     - target: {fileID: 2608571442045518714, guid: cce1e719878aa334bb4a4da66ecb9584, type: 3}
       propertyPath: m_Name
       value: PlayableDirectorController_Scene2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917575850062698263, guid: cce1e719878aa334bb4a4da66ecb9584, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

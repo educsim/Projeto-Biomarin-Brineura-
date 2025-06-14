@@ -248,6 +248,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2963138954336663778, guid: 0f6a14b011af0fc4c82810e4d9debd4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763970366318077578, guid: 0f6a14b011af0fc4c82810e4d9debd4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8324120409135325565, guid: 0f6a14b011af0fc4c82810e4d9debd4a, type: 3}
       propertyPath: m_Name
       value: PlayableDirectorController_Scene3
