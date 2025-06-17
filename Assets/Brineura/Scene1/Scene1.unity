@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.5457247, g: 0.61049575, b: 0.6514058, a: 1}
   m_AmbientGroundColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 1
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: ec46d2188d4b8774e847e75f1e12a8db, type: 2}
   m_HaloStrength: 0.5
@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_UseRadianceAmbientProbe: 0
@@ -233,13 +233,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282142334}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21485163, y: -0.34799898, z: 0.19648822, w: 0.89113855}
+  m_LocalRotation: {x: 0.11766902, y: -0.2686475, z: 0.14614172, w: 0.94478846}
   m_LocalPosition: {x: 10.10851, y: 0, z: -6.99608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 31.311, y: -38.839, z: 13.584}
+  m_LocalEulerAnglesHint: {x: 17.51, y: -29.751, z: 12.901}
 --- !u!1001 &2072111648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,9 +248,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1840106730848644853, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5648155009661571347, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610772760779533325, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7177239280944652019, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
       propertyPath: m_CastShadows
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874547562604818589, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8094406929303298872, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
       propertyPath: m_Name

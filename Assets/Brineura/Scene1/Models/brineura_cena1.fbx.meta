@@ -8,517 +8,777 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 11 - CoronaPhysicalMtl
-    second: {fileID: 2100000, guid: 81cd2fe1b24fa4441833d9077bc45a27, type: 2}
+    second: {fileID: 2100000, guid: 98b947be51011604da1c9835a0217291, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material #0
-    second: {fileID: 2100000, guid: 6d129b55e98c5704c9a753b7886b0f6f, type: 2}
+      name: Material #1332
+    second: {fileID: 2100000, guid: 87c49e12dc58d0f408b5453302019370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #1334
+    second: {fileID: 2100000, guid: ddfd69061f2f2894f93133d136d50bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #1336
+    second: {fileID: 2100000, guid: 610181058f9dc7b4da12f1bd5c99c7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #1337
+    second: {fileID: 2100000, guid: bcc9855771a07f14193dc36961aaac53, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material #335
-    second: {fileID: 2100000, guid: 33c41bee1cbb35749a6a594493b86879, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material #361
-    second: {fileID: 2100000, guid: d923987156c1d3d4781892bde155346a, type: 2}
+    second: {fileID: 2100000, guid: 1835fe9d0f263e84a82504984f6e231c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material #362
-    second: {fileID: 2100000, guid: ac4bab03d7d4bc84c8774be2b1bbc0cb, type: 2}
+    second: {fileID: 2100000, guid: acdc8bfbca3a8b54eb37674ff47be406, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material #363
-    second: {fileID: 2100000, guid: c51dea4eb22b8cb4f92a1bb4b5e9db7b, type: 2}
+    second: {fileID: 2100000, guid: 40f0a67c65ee7484da40d31cb6a8b3db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #965
+    second: {fileID: 2100000, guid: 49eeeb7d21d4f7d43acd0dd34d8c9e2c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: acrilico
-    second: {fileID: 2100000, guid: 3a23abdae63c1cf45b6299ef14a23a7e, type: 2}
+    second: {fileID: 2100000, guid: 9b3b4a8f293186945af9a96aeccffb2c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: acrilico_cinza
-    second: {fileID: 2100000, guid: 66fba493515863340b8dc9a5d7d3b77a, type: 2}
+    second: {fileID: 2100000, guid: e7327cbd254617f4c9a9a857de29fb8f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: acrilico_transp_filtro
-    second: {fileID: 2100000, guid: 7ea6218a7b358034baf7773084643064, type: 2}
+    second: {fileID: 2100000, guid: 0e4f8e9526ea95b4aa1101baf43a979f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: acrilico_verde
-    second: {fileID: 2100000, guid: 2220dce58c7e2b643a85ee0bc50630b3, type: 2}
+    second: {fileID: 2100000, guid: 8a2c02233f531704399b732b6b337265, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: aluminio
-    second: {fileID: 2100000, guid: 49540cb3864d229429756e6541430fe9, type: 2}
+    second: {fileID: 2100000, guid: 48f18efdb58b81d4fad204c28c98ec52, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: aluminio_opaco
-    second: {fileID: 2100000, guid: 586e8d0ae97a3074089e6ff45ece6bc3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: batente_porta
-    second: {fileID: 2100000, guid: 31dc6beeb11d84249a699e14a9849b3e, type: 2}
+    second: {fileID: 2100000, guid: fc122b759c42aff4f8ee461875b72683, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bomba_infusao
-    second: {fileID: 2100000, guid: 0a330c34216aba84ba3bb7ce5f080f1e, type: 2}
+    second: {fileID: 2100000, guid: f7f381d5a4e7466468c86796e6e92bd3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: borracha
-    second: {fileID: 2100000, guid: ca31ff4b40fb33a4c9dc240bd2621c7f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: botoes_amarelos
-    second: {fileID: 2100000, guid: 506e959468e5f954cb5f6859b512ed05, type: 2}
+    second: {fileID: 2100000, guid: c7dd9a9aeccc26b4a99b84bb872caf2e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: branco_tecido
-    second: {fileID: 2100000, guid: 97f259f56b4a8ce4f973e0787014f12f, type: 2}
+    second: {fileID: 2100000, guid: d2781214bba73cf46a2ef938e45979e8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: brilho
-    second: {fileID: 2100000, guid: a325ceb163359f94d9aed25bb10ae5e7, type: 2}
+    second: {fileID: 2100000, guid: 177868ebee72c8b4e93e326a8801bcc0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cabelo_loiro
-    second: {fileID: 2100000, guid: 8c43e9122893a2f49bec4564621215a7, type: 2}
+    second: {fileID: 2100000, guid: 43e6a8ea9d934dc4a8e6e4fe8db7e4d0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cabelo_preso_auxiliar
-    second: {fileID: 2100000, guid: 5ba92c53449fe1e4cb1ab9fa8d33c0bf, type: 2}
+    second: {fileID: 2100000, guid: 0e44be821f1165e45b34b8897343ecda, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cabelo_preso_medica
-    second: {fileID: 2100000, guid: 477be638c63aac04194ada8580f459cd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cadeiras
-    second: {fileID: 2100000, guid: 27d4fddc3fbc7794d9206fb929a4294f, type: 2}
+    second: {fileID: 2100000, guid: 0d3654f73ee6a444db45624438a6ae1b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: calca_capote
-    second: {fileID: 2100000, guid: 6bc8bc569cc35a043a0daa805862338f, type: 2}
+    second: {fileID: 2100000, guid: 345ddd54e778dae448cf4258cfea2e2c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: camp_ester_cam03
-    second: {fileID: 2100000, guid: 94c6ebf3e441b934d9d1b720a83b84f2, type: 2}
+    second: {fileID: 2100000, guid: 7876059bbfd23f84b8ac0af3c7a654a7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: campo_esteril01
-    second: {fileID: 2100000, guid: 7a40b5cafea649140965425ec26f239f, type: 2}
+    second: {fileID: 2100000, guid: 25b7c15843136ec4599792121947c7d6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: campo_esteril02
-    second: {fileID: 2100000, guid: 8b37c77d3eedc5646a7432abe6c7d02b, type: 2}
+    second: {fileID: 2100000, guid: f62f1379d618acf41bffceab38c30d19, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: campo_esteril_dobr1
-    second: {fileID: 2100000, guid: 292fba41d137c7f409a8ca3115e33288, type: 2}
+    second: {fileID: 2100000, guid: 947a7dc9ba672be42827794b7c703d58, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: campo_esteril_dobr2
-    second: {fileID: 2100000, guid: 6f6aa47d9e124424e8345172ea52f9d9, type: 2}
+    second: {fileID: 2100000, guid: d7573e50d7f46d94f95bfe2987614d04, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: campo_esteril_dobr3
-    second: {fileID: 2100000, guid: 1440b5b1f506f964ba3e47d50a9a5d18, type: 2}
+    second: {fileID: 2100000, guid: 365bbdde523be0941ba6dbdc724cd5fb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: capote_cirurgico
-    second: {fileID: 2100000, guid: d0d5d671248580341ba2c49bb3ddb440, type: 2}
+    second: {fileID: 2100000, guid: 8e17411d72c8afc40b5b7f39d209f14c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cilios_feminino
-    second: {fileID: 2100000, guid: d8f9ffdb0a0d43145be47f249f1eed13, type: 2}
+    second: {fileID: 2100000, guid: 86a5fa39b21ecb0489e228621d351558, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cilios_masculino
-    second: {fileID: 2100000, guid: eb7761ad1263ec344abca502bb613262, type: 2}
+    second: {fileID: 2100000, guid: 70c8c542f93ea4843be2288ba0b20e96, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: conector_acrilico
-    second: {fileID: 2100000, guid: e538a5a9142b65b49a83c7067ab74d24, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: controle_cama002
-    second: {fileID: 2100000, guid: 242514e9284c3f24392c33ff4d4f4224, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: controler_cama01
-    second: {fileID: 2100000, guid: 9f660c78f420bdd419a1ee6669fe586a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cromado
-    second: {fileID: 2100000, guid: a2d7b1eb0a864fd46b80f390321951ad, type: 2}
+    second: {fileID: 2100000, guid: 1616c23a0bf94d74994686df33d4d59b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cromado02
-    second: {fileID: 2100000, guid: 5266c5116edb4ad479e6289102b38d81, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: dourado
-    second: {fileID: 2100000, guid: e265a4c1d2caa9d46ade4412d961cf70, type: 2}
+    second: {fileID: 2100000, guid: e6df101ffc76d2c4fbc487f24f4d0e0a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: emborrachado_azul
-    second: {fileID: 2100000, guid: cd8dff67e30e7f9469da5fc48d67c145, type: 2}
+    second: {fileID: 2100000, guid: f817c3507dc688743a7c2f1b1e83253b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: estrias_filtro
-    second: {fileID: 2100000, guid: 15795ba37c6fd5c4d95220b8b789bb4e, type: 2}
+    second: {fileID: 2100000, guid: 42dfacabdb60c73438966fa08e65c28c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ferro_polido
-    second: {fileID: 2100000, guid: e13fe298283befc4986c6a0c4a2311e9, type: 2}
+    second: {fileID: 2100000, guid: 0fc06c5cb4ee525479acc111dd80197d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: gaze
-    second: {fileID: 2100000, guid: 28b6035c657803741b75fa052e13a9df, type: 2}
+    second: {fileID: 2100000, guid: 771ae4fc4d01f5942be74b1dfa0e0957, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: gray metal
-    second: {fileID: 2100000, guid: eca79c4af8f1e7242b15098a04cfae37, type: 2}
+    second: {fileID: 2100000, guid: fd1300109b9e07a4ba589a9f0426918d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knurled knob
+    second: {fileID: 2100000, guid: cfc71d144daf15446ae067ce2a81c51a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lencol
-    second: {fileID: 2100000, guid: e1db2fb895131a94f9143dc59071d3a9, type: 2}
+    second: {fileID: 2100000, guid: 6788cc886d989a446bd6f56524587542, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: luvas_std
-    second: {fileID: 2100000, guid: b26809dd955c8014981c6f5e3b193d8d, type: 2}
+    second: {fileID: 2100000, guid: d35bff1c9f40de84e9985dd9b6ac11bc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mascara
-    second: {fileID: 2100000, guid: b96128de6e6dcba49bc72f266d2cd672, type: 2}
+    second: {fileID: 2100000, guid: f058dde0384d1c747aeb1b28f06d0d1f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mecha_cabelo_crianca
-    second: {fileID: 2100000, guid: 4be5e04d093ceca49bcb2365736de52c, type: 2}
+    second: {fileID: 2100000, guid: b8d56b9deb595b645bb2f39bbaf48f54, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mecha_medica
-    second: {fileID: 2100000, guid: 7cd8358df94d87444aa095437508118f, type: 2}
+    second: {fileID: 2100000, guid: ec9892e06e8148440b8e172a69f93c05, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mecha_medica_rala
-    second: {fileID: 2100000, guid: 4cf30836069b55a46993bc364b4df3e8, type: 2}
+    second: {fileID: 2100000, guid: 6d328767b04f16a46bd0dc6e7cb796e2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mechas_auxiliar
-    second: {fileID: 2100000, guid: 90527f6301a54ff4eaa08941c2768e69, type: 2}
+    second: {fileID: 2100000, guid: 18aefb0e46241254180f873a20bdf70f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: meia_crianca
-    second: {fileID: 2100000, guid: 32a59ff60eb7c4149a07ad882b022865, type: 2}
+    second: {fileID: 2100000, guid: fcdc48e791836fa43b1e2e74d1d13d3d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: metal
-    second: {fileID: 2100000, guid: 20311fdf2c28dd14288d5bf2bc912b20, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: metal_dourado
-    second: {fileID: 2100000, guid: 5b446b36cfadd4040adc6221a2e2602c, type: 2}
+    second: {fileID: 2100000, guid: 89ae2c8f5b4f7b24cab384387ad549bd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: monitor_mask_rosto
-    second: {fileID: 2100000, guid: 5e789b7362c2668419eadbbb62ed5ff4, type: 2}
+    second: {fileID: 2100000, guid: c21a831593ef4a24bbf2bf455b063b2d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: monitor_multi
-    second: {fileID: 2100000, guid: 54dd58d19efd5ce4cb8c8faec4dd6cf7, type: 2}
+    second: {fileID: 2100000, guid: 994a78764b3bb814499c3cb39c5ac256, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: olho_aux
-    second: {fileID: 2100000, guid: b200eb8460a749e40b05ba8945e1099a, type: 2}
+    second: {fileID: 2100000, guid: 146173b8097ae6c4087b4796f3dcb842, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: olho_crianca
-    second: {fileID: 2100000, guid: 7e2faffb255a5fb469d33a6c30d26caa, type: 2}
+    second: {fileID: 2100000, guid: a602b8d9d68539e40889eaa2a7e0c2d5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: olho_homem
-    second: {fileID: 2100000, guid: 87a9969eb278319449dbfb4d5e3ab07a, type: 2}
+    second: {fileID: 2100000, guid: 4e7731b1665d2f148b8cc908e236f749, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: olho_medica
-    second: {fileID: 2100000, guid: 07ee2847fd265f5409cb2408a8cc56f8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: painel_gas
-    second: {fileID: 2100000, guid: 060ab8347f9cac142863cc2f729683c2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: parede_sala_cirurgia
-    second: {fileID: 2100000, guid: 0d9294b6074023b4bbaaab2d31fbb105, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: paredes
-    second: {fileID: 2100000, guid: e81f48e9fffea53419e6d2ab5c216a11, type: 2}
+    second: {fileID: 2100000, guid: 4e3f2d40a2f35e44892536ac4bf3aab7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pele_aux
-    second: {fileID: 2100000, guid: c833644f0f021c74d84a398351570b2d, type: 2}
+    second: {fileID: 2100000, guid: 651e905602201e7498d939219d602e2f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pele_crianca
-    second: {fileID: 2100000, guid: 9f9da52eaf7f4db429a2e0cf5875ee0a, type: 2}
+    second: {fileID: 2100000, guid: 01441f6eed6075e40840adc42d72b692, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pele_homem
-    second: {fileID: 2100000, guid: 88fff05666a13fd47826335b39fcfd3b, type: 2}
+    second: {fileID: 2100000, guid: 3d168919340dffc4a848aa6dbc40a564, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pele_medica
-    second: {fileID: 2100000, guid: cf56382999e4c394d88ce05b58853003, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: piso_sala
-    second: {fileID: 2100000, guid: 5684f68f01cccef41a627d8be57dde02, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: plastico_amarelo
-    second: {fileID: 2100000, guid: 2c7520a007a31a041b90c58ad07085f1, type: 2}
+    second: {fileID: 2100000, guid: 9c51711438cf3514daef51e0c45edf2f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_azul
-    second: {fileID: 2100000, guid: a66198c15db755c4cb6a530d33f05ca5, type: 2}
+    second: {fileID: 2100000, guid: 627a3d7f6be4c6d48a8886f27ebe3b24, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_bege
-    second: {fileID: 2100000, guid: 40ea9181c20d76847bb82c2d21977ffb, type: 2}
+    second: {fileID: 2100000, guid: 9f6aa46d32714904b84c7cbb14e07008, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_bomba
-    second: {fileID: 2100000, guid: c08a6ba21c68a334dab9e765028a0959, type: 2}
+    second: {fileID: 2100000, guid: eb1acc8cc916f3348a07941f9ca66061, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_branco
-    second: {fileID: 2100000, guid: b39f859149a711442a6376bc776aff8a, type: 2}
+    second: {fileID: 2100000, guid: b66c96c00fa41e2498dd8c9e2307a375, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_chumbo
-    second: {fileID: 2100000, guid: 33e05b90b051ee24786195f00c8ef1e8, type: 2}
+    second: {fileID: 2100000, guid: 9bb5aade77c7da044bb1b432244096e8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_cinza
-    second: {fileID: 2100000, guid: 92fc5f6efcc25644fa0b37925a7ff40f, type: 2}
+    second: {fileID: 2100000, guid: b8fd3bccc967f81459e6c836ea12327d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_cinza_claro
-    second: {fileID: 2100000, guid: d638c9fcb7aa05845b38184946affcc6, type: 2}
+    second: {fileID: 2100000, guid: b69168c5d508c144588b3fa4e4fe319b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_laranja
-    second: {fileID: 2100000, guid: 42946056700845b4cbb4eb2a18227b1d, type: 2}
+    second: {fileID: 2100000, guid: c9f928db2e8dee049b1ecd4c85145881, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_preto
-    second: {fileID: 2100000, guid: a38a3dc613a5cfa4b90887292d15a026, type: 2}
+    second: {fileID: 2100000, guid: a32743d8b62d1a5428724f377f185295, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_translucido02
-    second: {fileID: 2100000, guid: dc494fd36e6ecf3438770e4be3635976, type: 2}
+    second: {fileID: 2100000, guid: 8e16a3613ecdb024d984b349299b35e6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_transp
-    second: {fileID: 2100000, guid: e352e93540ac00146ab73f91e1a18368, type: 2}
+    second: {fileID: 2100000, guid: 88aa72e2672ca19438519107f8c0cd75, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_transp_cateter
-    second: {fileID: 2100000, guid: e50294efb22a96947914729ae0d11564, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: plastico_verde
-    second: {fileID: 2100000, guid: 82176ce700c840349bebc44b166a1eb0, type: 2}
+    second: {fileID: 2100000, guid: 859c8037abbda7e47914f9f58d357bae, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: plastico_verde_azulado
-    second: {fileID: 2100000, guid: 792471e57f9df484d8a60d457c084b52, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: plastico_verde_claro
-    second: {fileID: 2100000, guid: 7c8db6c5852a27f45a506e54f744b1c0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: plastico_vermelho
-    second: {fileID: 2100000, guid: 0fb34aad011fa014a884bfd91ca1d783, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: porta_batente
-    second: {fileID: 2100000, guid: f2501e7e6908e8e49a9c0bbadc57d396, type: 2}
+    second: {fileID: 2100000, guid: 32503dc3095a3cb45b90fe40dad42d22, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: prope_std
-    second: {fileID: 2100000, guid: 50f7a7c07f5bbc34faadf9bc32f006fb, type: 2}
+    second: {fileID: 2100000, guid: 540a285b7fdc69b43bf7bcb0fcc6d757, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: protetor_parede
-    second: {fileID: 2100000, guid: 02f41426e93aeca448b6056f894313b2, type: 2}
+      name: quarto_enfermaria
+    second: {fileID: 2100000, guid: 126d786c361c01b4da1d338e7a45e697, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: robo
-    second: {fileID: 2100000, guid: 3aaba8b8d4731b94eaba684a0eeffb8a, type: 2}
+    second: {fileID: 2100000, guid: b41d90c7638cb434e9a5f69dd2844052, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: robo_pescoco
-    second: {fileID: 2100000, guid: 850cdf8b56d0a7d48a79ee824ed44b44, type: 2}
+    second: {fileID: 2100000, guid: f3856f09abf2f404e9120e06cfee9d9f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: roupa_crianca
-    second: {fileID: 2100000, guid: b38947ec1d291f24aad348998c8d439d, type: 2}
+    second: {fileID: 2100000, guid: 3a4cab06b0074b8439c1f61a599d7546, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: roupa_homem
-    second: {fileID: 2100000, guid: 9c567ce6ba9a19849aa1df91e72d7dcf, type: 2}
+    second: {fileID: 2100000, guid: dab37cae4fe1a484a9b210bdd5b47b41, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: selo_filtro
-    second: {fileID: 2100000, guid: 54fc5d15648975d4b9420f763cbd2322, type: 2}
+    second: {fileID: 2100000, guid: 3709d5c321e348a47bec1a3eac8c7b04, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: seringa3ml_medidas
-    second: {fileID: 2100000, guid: c1f256f4ce0585e44b332b0dc4e2ebb8, type: 2}
+    second: {fileID: 2100000, guid: 5415ecaaa291ee747a3e84a540460ee4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: seringa_medidas
-    second: {fileID: 2100000, guid: f9e185247042e434bbf94549b064df17, type: 2}
+    second: {fileID: 2100000, guid: 399800e6b4077ce4a875e457a4b017f4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: seringa_plastico
-    second: {fileID: 2100000, guid: cd6fa7e68a93b9142b5a203d196a381e, type: 2}
+    second: {fileID: 2100000, guid: 45aec37a718390e4192005dd42014d35, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: sistema_teto
-    second: {fileID: 2100000, guid: 5432e25694a3a06419672dbcb5e038bb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: tarja
-    second: {fileID: 2100000, guid: 88f5d55bc49940244920bc8c95add5d8, type: 2}
+      name: tecido_poltrona
+    second: {fileID: 2100000, guid: 64f78fc3736dfbe4aacb2efd685aa58c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tela_led
-    second: {fileID: 2100000, guid: 8adb84682eb13764c83d5e1f54ce479e, type: 2}
+    second: {fileID: 2100000, guid: 10171d07c5591074197f6cf4bac7f13c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: toalha_mesa_esteril
-    second: {fileID: 2100000, guid: 24a97a7feb1a6ae47b58a9cae7b59c32, type: 2}
+    second: {fileID: 2100000, guid: 4941dbbdb29d66c40910b4804e3e65aa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: touca_std
-    second: {fileID: 2100000, guid: ea7915c4a3f07fc439e23dc8682766ef, type: 2}
+    second: {fileID: 2100000, guid: 8784b17719ab82e4eb19ebf40a56aa6e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: transparente
-    second: {fileID: 2100000, guid: e9e15a4aaddf6d44abdd58873853e232, type: 2}
+    second: {fileID: 2100000, guid: eef95971da01bed448f64c271d511608, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: travesseiro
-    second: {fileID: 2100000, guid: aabc905c292dc4f4f8a553aa537f40d9, type: 2}
+    second: {fileID: 2100000, guid: 1cc330d1157daab439b28261233c01a5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: vidro_fino
-    second: {fileID: 2100000, guid: 5f53259fc0a05b340ab81f1c59faf596, type: 2}
+    second: {fileID: 2100000, guid: cb9e7572ad91d4c43931a4a749388fd3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FabricPlain0072_S
+    second: {fileID: 2800000, guid: e2ba0a39c04eaaa4bb0f35945b4f2e47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: avatar_touca_NM
+    second: {fileID: 2800000, guid: ae6288e4f1b221a4cb050b04348d22a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: balcao_difuse
+    second: {fileID: 2800000, guid: 57b952b304793b74fbebe96703b3913b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed1_controls_bump
+    second: {fileID: 2800000, guid: a9cdc680dca14e14f89e7020ec253d0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cabelo_base_aux_difuse
+    second: {fileID: 2800000, guid: 5ce42db7af85d0147bdf884392f18763, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cabelo_base_aux_opacity
+    second: {fileID: 2800000, guid: bcd6b03eb684e664eb41828955122e28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cabelo_castanho
+    second: {fileID: 2800000, guid: b76f9670da437154090578f19c73397b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cadeiraB_difuse
+    second: {fileID: 2800000, guid: f33bdb61e0a659e4caec894ac81d98ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: calca_capote_NM
+    second: {fileID: 2800000, guid: eb1d91a69e6d0c3429ea5e6fd670b8af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: calca_capote_difuse
+    second: {fileID: 2800000, guid: c29b4b622af879a4a8c0c103eb4bac8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cama_inclin_lencol_NM
+    second: {fileID: 2800000, guid: fc4918e20ae81f1418803618993ddb3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cama_inclina_difuse2
+    second: {fileID: 2800000, guid: 97de18e44b0fb4b4e92dd0e97b524176, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camiseta_calca_NM
+    second: {fileID: 2800000, guid: 36509b2487fb29348a80f53e963eb265, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camiseta_calca_difuse
+    second: {fileID: 2800000, guid: 583ae2765c861f544a4d5db79c93b5ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_cama01_difuse
+    second: {fileID: 2800000, guid: 4c37444d81a0a244082752bd7067190d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_cama02_difuse
+    second: {fileID: 2800000, guid: 81d1a0fa8031e3f45934c10163fc7108, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_cama03_difuse
+    second: {fileID: 2800000, guid: f44dfd26267a8ef4e85c0b98c806a2b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_dobr1_NM
+    second: {fileID: 2800000, guid: 8c0338043e86a594dadf6e9e7940c980, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_dobr2_NM
+    second: {fileID: 2800000, guid: 438b200a8424f634b9007f0e43dc6eda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_dobr3_NM
+    second: {fileID: 2800000, guid: 2e03cdda43b259d4c873bc30922f63bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: camp_ester_dobr_difuse
+    second: {fileID: 2800000, guid: 2cfd029a6a77e304586a864263b29126, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: campo_esteril_cama02_NM
+    second: {fileID: 2800000, guid: 718361da073c7c94085c368fac13e5f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: campo_esteril_cama03_NM
+    second: {fileID: 2800000, guid: 2ae3c97cc9e09b74b8574be658a55014, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: campo_esteril_cama_NM
+    second: {fileID: 2800000, guid: b7d69b0791792e6418ee7879850acd12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: capote_cirurgico_NM
+    second: {fileID: 2800000, guid: 03f303720e9745f4991e21bee85267af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: capote_cirurgico_albedo
+    second: {fileID: 2800000, guid: 00a2a8950f8bddf4fa74f48a272029ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cilios_mask
+    second: {fileID: 2800000, guid: 2c7f35448db09e34db5a5d165f1379c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cilios_mask2
+    second: {fileID: 2800000, guid: fc10b7cd71c578241b131f5d882c45ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gaze_opacity
+    second: {fileID: 2800000, guid: 78cbfcc526bf8a546a7870e594704b20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iris_azul_difuse
+    second: {fileID: 2800000, guid: d8a5aae1936320a4391d85a46a122940, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: luvas_NM
+    second: {fileID: 2800000, guid: db9a9bdf5e9d0714ca4379fb007c41fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: male_casualsuit01_diffuse
+    second: {fileID: 2800000, guid: 7c94a85bbf4f2b245a0efc4d77a767a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: masc01_mecha_mask3
+    second: {fileID: 2800000, guid: 3597397137373454d8f0e9fbc3dd6afa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: masc_pele_hair_difuse
+    second: {fileID: 2800000, guid: 9d151b7972ab313448d9f22cba995297, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mascara_NM
+    second: {fileID: 2800000, guid: 2a5432503cfb26e43a258cb94f5f92c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mascara_difuse
+    second: {fileID: 2800000, guid: 6ebd30827cd641d499c07dd71e8dcae8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mecha_aux_difuse
+    second: {fileID: 2800000, guid: ac8dee3657ecf134abe196c883318a23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mecha_aux_opacity
+    second: {fileID: 2800000, guid: 5ef977804a0b1774380776e3448aeeb0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mecha_medica_opacity
+    second: {fileID: 2800000, guid: da9a18ba7cad35240b50dea0f404d525, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mecha_medica_opacity2
+    second: {fileID: 2800000, guid: 6d572064318770f459f053153a3d154c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: meia_menino_NM
+    second: {fileID: 2800000, guid: f389f93641dd62b459bc1cb19794ac48, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: meia_menino_difuse
+    second: {fileID: 2800000, guid: 5642dec0f34bcb244bf6b9ce9e3f91be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: menino_5anos_NM
+    second: {fileID: 2800000, guid: ff8ba30a21f2c5b409198e2aaf3c8374, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: menino_5anos_difuse
+    second: {fileID: 2800000, guid: a200fd7e0596cc345b213be712861232, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: monit_multi_gabinete_difuse
+    second: {fileID: 2800000, guid: ad7d1bf3a781180449e0e4f948a77c37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: monit_multiparam_difuse
+    second: {fileID: 2800000, guid: 13ec0755ef6f54b46b39a43600a7537e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: olho_castan_difuse
+    second: {fileID: 2800000, guid: 7dae7da9433253f449bae1cbcdcb6cf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: olho_crianca_difuse
+    second: {fileID: 2800000, guid: 945a3b42985e74a418944da48eae9fd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: olho_homem
+    second: {fileID: 2800000, guid: 3ab893ca51947384bad8bc8786c5515c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: painel_bomba_seringa_difuse
+    second: {fileID: 2800000, guid: 6976b4a3d9acb3947add0a63e47d6b24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: painel_gases_difuse
+    second: {fileID: 2800000, guid: e0b1d2d8c7a249447963539dcc1cd946, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pele_aux_NM
+    second: {fileID: 2800000, guid: 92b649b091be90d4cb95ca401c80a2b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pele_aux_difuse
+    second: {fileID: 2800000, guid: b3f7065c68b17984a8b3346611380dae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pele_homem_NM
+    second: {fileID: 2800000, guid: f2394bcc13f654a4d82494890b5bb99a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pele_medica_NM
+    second: {fileID: 2800000, guid: 9984c907bc2ab0e47914ab1724d1a2ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pele_medica_difuse
+    second: {fileID: 2800000, guid: 46b4d65b63bc78848a76a1f0096e5b2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quarto_enferm_diffuse
+    second: {fileID: 2800000, guid: dd4a38d627cee8e4c88f27f192c9bb77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: robo_educsim_NM_B
+    second: {fileID: 2800000, guid: be8d93f5e3471dd499acfce5db580b27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: robo_educsim_difuse_B
+    second: {fileID: 2800000, guid: 0465f1f271f8b2b449970eea0d2d7b7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: robo_meio_NM
+    second: {fileID: 2800000, guid: b5d5b8583c2b365419acab63cebaa81f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: robo_monitor_mask_led
+    second: {fileID: 2800000, guid: 2d762dd9083b7d04196bbca1307f7fea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: selo_filtro_estrias_NM
+    second: {fileID: 2800000, guid: 8a5196ce29f891944a17158585f6bd41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: toalha_mesa_instr_NM
+    second: {fileID: 2800000, guid: a184ed49fcd2db045b63c19e2d5ff0bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: toalha_mesa_instr_difuse
+    second: {fileID: 2800000, guid: cb8df0bc84142a846a553664a8139678, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: travesseiro_NM
+    second: {fileID: 2800000, guid: ab60edd54bfbc174d8ebe1115ab283c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: travesseiro_difuse
+    second: {fileID: 2800000, guid: 8263f13af2568084cb1f72cc340d590d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -529,15 +789,15 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 1
-    importConstraints: 1
-    animationCompression: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -614,7 +874,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
