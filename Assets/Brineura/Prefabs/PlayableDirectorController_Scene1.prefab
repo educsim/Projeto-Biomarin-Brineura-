@@ -23,7 +23,7 @@ PrefabInstance:
     - target: {fileID: 2784330060602517046, guid: 261c72098c55cfc4da60fae195c35e01, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 90527f6301a54ff4eaa08941c2768e69, type: 2}
+      objectReference: {fileID: 2100000, guid: 18aefb0e46241254180f873a20bdf70f, type: 2}
     - target: {fileID: 2871216372491787928, guid: 261c72098c55cfc4da60fae195c35e01, type: 3}
       propertyPath: m_Name
       value: brineura_cena1

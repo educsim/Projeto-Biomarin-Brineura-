@@ -52,6 +52,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: brineura_cena4
       objectReference: {fileID: 0}
+    - target: {fileID: 4899849484240579962, guid: 8cd23d8ad7289114a893f8ca49a143f2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e75e4a4b7a2eb8409ffaa0b543ed0f8, type: 2}
+    - target: {fileID: 5165968210869710573, guid: 8cd23d8ad7289114a893f8ca49a143f2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e75e4a4b7a2eb8409ffaa0b543ed0f8, type: 2}
+    - target: {fileID: 5759341728396021396, guid: 8cd23d8ad7289114a893f8ca49a143f2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e75e4a4b7a2eb8409ffaa0b543ed0f8, type: 2}
+    - target: {fileID: 5788402996378097205, guid: 8cd23d8ad7289114a893f8ca49a143f2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e75e4a4b7a2eb8409ffaa0b543ed0f8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

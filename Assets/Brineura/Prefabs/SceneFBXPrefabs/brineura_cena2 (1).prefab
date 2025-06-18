@@ -268,6 +268,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.006559193
       objectReference: {fileID: 0}
+    - target: {fileID: -6940748503279282901, guid: 4a3cc1d1af445654894ccbbdee561e0e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 70c8c542f93ea4843be2288ba0b20e96, type: 2}
     - target: {fileID: -6850875173021582325, guid: 4a3cc1d1af445654894ccbbdee561e0e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -816,6 +820,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.006559193
       objectReference: {fileID: 0}
+    - target: {fileID: -1436290378432969544, guid: 4a3cc1d1af445654894ccbbdee561e0e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 70c8c542f93ea4843be2288ba0b20e96, type: 2}
     - target: {fileID: -1412498052749261995, guid: 4a3cc1d1af445654894ccbbdee561e0e, type: 3}
       propertyPath: m_DirtyAABB
       value: 0

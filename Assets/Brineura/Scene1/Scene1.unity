@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a6b7b71f87c3e0040871d20ae41ffc49, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 78151f5e58fb9f749bd5225f789faa27, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -248,26 +248,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1840106730848644853, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5648155009661571347, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6610772760779533325, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177239280944652019, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7874547562604818589, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8094406929303298872, guid: 38ec70e587b662e4c8dadd71cbb53751, type: 3}
       propertyPath: m_Name
       value: PlayableDirectorController_Scene1
