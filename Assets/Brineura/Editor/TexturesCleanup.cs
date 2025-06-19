@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using System.IO;
@@ -71,3 +72,4 @@ public class TextureCleanupTool : EditorWindow
         return Regex.Replace(name, @"\s+\d+$", ""); // Remove " 1", " 2", etc.
     }
 }
+#endif

@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_AmbientSkyColor: {r: 0.82641506, g: 0.82641506, b: 0.82641506, a: 1}
   m_AmbientEquatorColor: {r: 0.5457247, g: 0.61049575, b: 0.6514058, a: 1}
   m_AmbientGroundColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
   m_AmbientIntensity: 1
@@ -171,7 +171,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 0.97735846, g: 0.9449057, b: 0.8759345, a: 1}
-  m_Intensity: 2
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -233,13 +233,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282142334}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11766902, y: -0.2686475, z: 0.14614172, w: 0.94478846}
+  m_LocalRotation: {x: 0.09360464, y: -0.5002982, z: 0.14507017, w: 0.848466}
   m_LocalPosition: {x: 10.10851, y: 0, z: -6.99608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 17.51, y: -29.751, z: 12.901}
+  m_LocalEulerAnglesHint: {x: 17.698, y: -59.614, z: 9.212}
 --- !u!1001 &2072111648
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,5 +1,7 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
+
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
@@ -41,7 +43,9 @@ public class MaterialReplacer : MonoBehaviour
             if (changed)
             {
                 renderer.sharedMaterials = materials;
+
                 EditorUtility.SetDirty(renderer);
+
             }
         }
 
@@ -71,3 +75,4 @@ public class MaterialReplacer : MonoBehaviour
         return Regex.Replace(name, @"\s+\d+$", ""); // Remove " 1", " 2", etc.
     }
 }
+#endif
