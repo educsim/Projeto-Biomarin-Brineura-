@@ -105,6 +105,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8324120409135325566}
     m_Modifications:
+    - target: {fileID: 1003711156973958710, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1010551888525074470, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 1
@@ -122,6 +126,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1845295180161403786, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 177868ebee72c8b4e93e326a8801bcc0, type: 2}
+    - target: {fileID: 1845295180161403786, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -129,6 +137,10 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2261387825061855676, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 177868ebee72c8b4e93e326a8801bcc0, type: 2}
     - target: {fileID: 2261387825061855676, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 3
@@ -190,6 +202,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5519857546776006001, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 177868ebee72c8b4e93e326a8801bcc0, type: 2}
+    - target: {fileID: 5519857546776006001, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -208,6 +224,10 @@ PrefabInstance:
     - target: {fileID: 7215758258795611573, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731558154832504926, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
