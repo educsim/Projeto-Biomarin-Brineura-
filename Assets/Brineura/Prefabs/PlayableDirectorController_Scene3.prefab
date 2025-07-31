@@ -105,6 +105,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8324120409135325566}
     m_Modifications:
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -1.8458991
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 3.2227187
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.86941195
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.041426003
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.043082
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.024629027
+      objectReference: {fileID: 0}
+    - target: {fileID: 132542986168738499, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 771ae4fc4d01f5942be74b1dfa0e0957, type: 2}
     - target: {fileID: 1003711156973958710, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -120,7 +152,7 @@ PrefabInstance:
     - target: {fileID: 1408957208283096293, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 87a9969eb278319449dbfb4d5e3ab07a, type: 2}
+      objectReference: {fileID: 2100000, guid: 4e7731b1665d2f148b8cc908e236f749, type: 2}
     - target: {fileID: 1520444360227064842, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 10
@@ -245,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brineura_cena3
       objectReference: {fileID: 0}
+    - target: {fileID: 6672977371003597652, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 70c8c542f93ea4843be2288ba0b20e96, type: 2}
     - target: {fileID: 6672977371003597652, guid: 87e5452a1c7d10247908ed288112d115, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 1
